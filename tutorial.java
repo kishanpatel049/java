@@ -29,6 +29,7 @@ class Main {
       //print statement
       System.out.print("Hello, World! "); 
       System.out.println("My Age "+ myAge);
+      System.out.println("My Name is "+ myName);
       
       //pointers 
       byte a = 1;
@@ -41,7 +42,17 @@ class Main {
       point1.x = 2;
       System.out.println(point2);
       */
+    
+      //strings
+      /*
+       method list
+       .endWith()
+       .length()
+       .indexOf()
+       .replace()
 
+      */
+      System.out.println(myName.replace('h', 's'));
 
     }
 }
