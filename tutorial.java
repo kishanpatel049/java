@@ -50,9 +50,13 @@ class Main {
        .length()
        .indexOf()
        .replace()
-
+       .toLowerCase()
+       .toUpperCase()
+       .trim()                     // remove whight space form string
+       )
       */
       System.out.println(myName.replace('h', 's'));
+      System.out.println(myName);
 
     }
 }
