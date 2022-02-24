@@ -1,3 +1,4 @@
+import java.text.NumberFormat;
 import java.util.*;
 /*
   tutorilail hva vedio
@@ -139,7 +140,18 @@ class Main {
     ...
     */ 
     
-    //formaiong numbers 1.19minuts 
+    //formaiong numbers 
+    NumberFormat currency = NumberFormat.getCurrencyInstance();
+    System.out.println(currency.format(1199.900909));
+
+    System.out.println( NumberFormat.getPercentInstance().format(.98));
+
+    // get user input 
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Age: ");
+    String input = scanner.nextLine().trim();
+    System.out.println(input);
+
 
 
     }
