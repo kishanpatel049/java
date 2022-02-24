@@ -10,6 +10,7 @@ public class tutorial_part2 {
         System.out.println(x>y && x>=z || y<z);  
         System.out.println(!(x<=z || y>z) && x<y);  
 
+
         // if else statement
         int a = 20;
  
@@ -80,6 +81,19 @@ public class tutorial_part2 {
               break;
           }
 
+<<<<<<< HEAD
     }
 }
 
+=======
+
+
+
+            
+
+
+
+
+    }
+}
+>>>>>>> second-branch
