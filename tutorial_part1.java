@@ -153,7 +153,7 @@ class Main {
     System.out.println(input);
 
 
-
+    //avoide magic number  
     }
 }
 
